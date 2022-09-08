@@ -2,7 +2,9 @@
 
 A style for WorkAdventure
 
-## Setup
+## Getting started
+
+### Install
 
 Install with yarn:
 ```
@@ -14,21 +16,45 @@ Install with npm
 npm install @workadventure/sweetsky
 ```
 
-## How use
+### Scss import
 
-In your index file, import style:
-
-With import:
-```js
+Scss import in your index.scss
+```scss
     ...
-    import "@workadventure/sweetsky"
+    @import '@workadventure-test/sweetsky/style/index.scss';
     ...
 ```
 
+OR
 
-With require
-```js
+Css import in your index.scss
+```css
     ...
-    require("@workadventure/sweetsky")
+    @import '@workadventure-test/sweetsky/sweetsky.min.css';
     ...
 ```
+### Tailwind configuration
+
+Tailwind configuration in your file `tailwind.config.js`
+```js
+const defaultTheme = require('@workadventure-test/sweetsky/tailwind.config.js');
+module.exports = defaultTheme;
+```
+
+OR
+
+Tailwind configuration in your file `tailwind.config.cjs`
+```js
+const defaultTheme = require('@workadventure-test/sweetsky/tailwind.config.cjs');
+module.exports = defaultTheme;
+```
+
+### Postcss configuration
+
+Postcss configuration in your file `postcss.config.js`
+```js
+const defaultPostcssConfig = require('@workadventure-test/sweetsky/postcss.config.js');
+module.exports = defaultPostcssConfig;
+```
+
+
