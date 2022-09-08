@@ -1,0 +1,6 @@
+# .npmignore
+
+.gitignore
+.npmignore
+.releaserc
+node_modules

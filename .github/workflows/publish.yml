@@ -1,0 +1,49 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  release:
+    name: Publish
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'npm'
+
+      - uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - run: npm install
+      - run: npm run semantic-release-dry-run
+        env:
+          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          CI: true
+      # Grab the tag number by running semantic-release in dry mode and put the result in release_tag env variable
+      - run: echo "release_tag=$(npm run semantic-release-dry-run | grep -Po 'The next release version is \K([\w.-]*)')" >> $GITHUB_ENV
+        env:
+          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          CI: true
+      - run: npm run build --if-present
+      - run: curl -s https://codecov.io/bash | bash
+        env:
+          CODECOV_TOKEN: ${{secrets.CODECOV_TOKEN}}
+      - run: npm run semantic-release
+        env:
+          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          CI: true
