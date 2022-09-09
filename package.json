@@ -1,6 +1,6 @@
 {
   "name": "@workadventure/sweetsky",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Tailwind Theme for WorkAdventure",
   "main": "style/index.scss",
   "scripts": {
@@ -12,7 +12,7 @@
     "semantic-release": "semantic-release",
     "semantic-release-dry-run": "semantic-release -d"
   },
-  "author": "gregoire@workadventu.re",
+  "author": "Grégoire parant <david@workadventu.re>",
   "license": "ISC",
   "keywords": [
     "Design",
