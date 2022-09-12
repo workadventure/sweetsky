@@ -1,6 +1,6 @@
 {
   "name": "@workadventure/sweetsky",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Tailwind Theme for WorkAdventure",
   "main": "style/index.scss",
   "scripts": {
