@@ -8,12 +8,12 @@ A style for WorkAdventure
 
 Install with yarn:
 ```
-yarn add @workadventure/sweetsky
+yarn add @workadventure-style/sweetsky
 ```
 
 Install with npm
 ```
-npm install @workadventure/sweetsky
+npm install @workadventure-style/sweetsky
 ```
 
 ### Scss import
@@ -21,7 +21,7 @@ npm install @workadventure/sweetsky
 Scss import in your index.scss
 ```scss
     ...
-    @import '@workadventure-test/sweetsky/style/index.scss';
+    @import '@workadventure-style/sweetsky/style/index.scss';
     ...
 ```
 
@@ -30,14 +30,14 @@ OR
 Css import in your index.scss
 ```css
     ...
-    @import '@workadventure-test/sweetsky/sweetsky.min.css';
+    @import '@workadventure-style/sweetsky/sweetsky.min.css';
     ...
 ```
 ### Tailwind configuration
 
 Tailwind configuration in your file `tailwind.config.js`
 ```js
-const defaultTheme = require('@workadventure-test/sweetsky/tailwind.config.js');
+const defaultTheme = require('@workadventure-style/sweetsky/tailwind.config.js');
 module.exports = defaultTheme;
 ```
 
@@ -45,7 +45,7 @@ OR
 
 Tailwind configuration in your file `tailwind.config.cjs`
 ```js
-const defaultTheme = require('@workadventure-test/sweetsky/tailwind.config.cjs');
+const defaultTheme = require('@workadventure-style/sweetsky/tailwind.config.cjs');
 module.exports = defaultTheme;
 ```
 
@@ -53,7 +53,7 @@ module.exports = defaultTheme;
 
 Postcss configuration in your file `postcss.config.js`
 ```js
-const defaultPostcssConfig = require('@workadventure-test/sweetsky/postcss.config.js');
+const defaultPostcssConfig = require('@workadventure-style/sweetsky/postcss.config.js');
 module.exports = defaultPostcssConfig;
 ```
 
