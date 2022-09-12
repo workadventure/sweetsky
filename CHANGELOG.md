@@ -3,6 +3,18 @@
 
 ### Performance Improvements
 
+* **pencil:** new style package ([29c3bee](https://github.com/workadventure/sweetsky/commit/29c3bee210dfcd43a5fa322b4798a2a97fa4381d))
+
+
+### BREAKING CHANGES
+
+* **pencil:** new style package
+
+# 1.0.0 (2022-09-12)
+
+
+### Performance Improvements
+
 * **pencil:** new style package ([54bee6b](https://github.com/workadventure/sweetsky/commit/54bee6ba84be1522b2d6fc4b509fc979687ba2ef))
 
 
