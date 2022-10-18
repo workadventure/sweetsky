@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/workadventure/sweetsky/compare/v1.0.0...v1.0.1) (2022-10-18)
+
+
+### Bug Fixes
+
+* menu container design ([670d897](https://github.com/workadventure/sweetsky/commit/670d897ff905b26660cb5c839d7569541e7d94a9))
+
 # 1.0.0 (2022-09-12)
 
 
