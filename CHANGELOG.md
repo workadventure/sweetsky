@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/workadventure/sweetsky/compare/v1.0.1...v1.0.2) (2023-08-17)
+
+
+### Bug Fixes
+
+* Extending Tailwind colors ([5649773](https://github.com/workadventure/sweetsky/commit/564977316028cac9edcdaaa0233a75f4c5817b38))
+
 ## [1.0.1](https://github.com/workadventure/sweetsky/compare/v1.0.0...v1.0.1) (2022-10-18)
 
 
