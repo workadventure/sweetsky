@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/workadventure/sweetsky/compare/v1.0.2...v1.0.3) (2023-08-22)
+
+
+### Bug Fixes
+
+* Trying to fix semantic release deployments ([5f1e209](https://github.com/workadventure/sweetsky/commit/5f1e20996ee04a67bee9bb98499a97056a304697))
+
 ## [1.0.2](https://github.com/workadventure/sweetsky/compare/v1.0.1...v1.0.2) (2023-08-17)
 
 
