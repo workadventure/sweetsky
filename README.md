@@ -56,5 +56,3 @@ Postcss configuration in your file `postcss.config.js`
 const defaultPostcssConfig = require('@workadventure-style/sweetsky/postcss.config.js');
 module.exports = defaultPostcssConfig;
 ```
-
-
