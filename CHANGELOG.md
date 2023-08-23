@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/workadventure/sweetsky/compare/v1.0.2...v1.1.0) (2023-08-23)
+
+
+### Bug Fixes
+
+* Trying to fix semantic release deployments ([5f1e209](https://github.com/workadventure/sweetsky/commit/5f1e20996ee04a67bee9bb98499a97056a304697))
+
+
+### Features
+
+* Adding colors from new design system ([3fcd88e](https://github.com/workadventure/sweetsky/commit/3fcd88e903c582df10dca3674aa937e7f3edd3ed))
+
 ## [1.0.2](https://github.com/workadventure/sweetsky/compare/v1.0.1...v1.0.2) (2023-08-17)
 
 
